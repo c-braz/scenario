@@ -1,6 +1,4 @@
-# scenario
+# scenario-1
 Place www files in c:\inetpub\wwwroot\
-
-
-Calc is going to be the software lulz.
+`Calc is going to be the software lulz.
 
